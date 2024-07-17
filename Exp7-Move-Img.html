@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> CSS3 Multiple Box Shadow</title>
+    
+    <style>
+      .box{
+        margin:150;
+        width:500px;
+        height:500px;
+        background:url("ball.jpg")no-repeat;
+        position:relative;
+        animation:repeatit 2s linear -1s infinite alternate;
+       }
+       @keyframes repeatit{
+        from{left:0;}
+        to{left:50%;}
+       }
+    </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>
